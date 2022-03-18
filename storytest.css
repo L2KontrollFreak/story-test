@@ -1,14 +1,14 @@
 body{
     height: 100%;
     margin: 0;
-    background-color: darkcyan;
+    background-color: mediumspringgreen;
     background: mediumaquamarine;
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-size: 20px;
     letter-spacing: .9px;
     font-weight: 500;
-    color: teal;
+    color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 #bubble{
@@ -72,15 +72,15 @@ form label span {
 
 }
 form label:hover span, form label:focus span{
-    border: 1px solid mediumspringgreen;
-    background-color: teal ;
-    color: seagreen;
+    border: 1px solid darkgreen;
+    background-color: green ;
+    color: mediumspringgreen;
 }
 form input[type=radio]{
     visibility: hidden;
 }
 form input[type=radio]:checked + span{
-    border: 1px solid mediumspringgreen;
-    background-color: teal;
-    color: seagreen;
+    border: 1px solid darkgreen;
+    background-color: green;
+    color: mediumspringgreen;
 }
