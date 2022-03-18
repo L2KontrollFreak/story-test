@@ -37,7 +37,7 @@ submit.addEventListener('mouseup', function(){ //when a button on a pointing dev
   
   // Reset button
   function resetForm(){
-      document.getElementById("theAdventure").reset();
+      document.getElementById("restartButton").reset();
   }
   
   // Generate answers from story
