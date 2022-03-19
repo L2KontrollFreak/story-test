@@ -23,6 +23,15 @@ var story_tell = {
             "b": "it's cool",
             "c": "not bad at all",
         }
+    },
+    "2_a":{
+      "dialogue": "do you like eating tacos",
+      "answers":{
+        "a": "yes",
+        "b": "no",
+        "C": "meh"
+      }
+
     }
 };
 // continue link
@@ -47,7 +56,7 @@ submit.addEventListener('mouseup', function(){ //when a button on a pointing dev
   
     for(var prop in current_story['answers']) {
       if(current_story['answers'].hasOwnProperty(prop)) { //method returns a boolean (true or false) indicating whether the object has the specified property as its own property
-        text += '<label><input type="radio" name="answer" value="a" "b" "c"' + prop + '"/><span>' + current_story['answers'][prop] + '</span></label>';// adding answers to the story
+        text += '<label><input type="radio" name="answer" value="a" "b" "c" "a" "b" "c"' + prop + '"/><span>' + current_story['answers'][prop] + '</span></label>';// adding answers to the story
       }
     }
   
